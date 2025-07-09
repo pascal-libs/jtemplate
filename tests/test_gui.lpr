@@ -6,7 +6,8 @@ uses
   {$IFDEF UNIX}{$IFDEF UseCThreads}
   cthreads,
   {$ENDIF}{$ENDIF}
-  Interfaces, Forms, GuiTestRunner, testregistry;
+  Interfaces, Forms, GuiTestRunner, fpcunittestrunner, testregistry, test_jtemplate
+  ;
 
 var
   TestRunner: TGuiTestRunner;
